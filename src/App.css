@@ -1,0 +1,39 @@
+.container{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.container__title{
+    
+    text-shadow: 0.15em 0.15em #9999;
+    font-size: 2rem;
+}
+
+.container__phrase{
+    width: 100%;
+    max-width: 30em;
+    background: linear-gradient(
+        to right,
+        rgb(231, 226, 226),
+        rgb(178, 209, 224)
+    );
+    padding: 1.5em 2em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+    
+}
+.container__btn{
+    padding: 0.8em 1.2em;
+    border-radius: 0.7em;
+    cursor: pointer;
+}
+.container__btn:hover{
+    background-color: rgb(168, 224, 205);
+    
+}
